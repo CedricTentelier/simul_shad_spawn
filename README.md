@@ -9,3 +9,5 @@ The mechanistic model simulates individual shad spawning decisions:
 This model is informed by data collected in the Nivelle in 2017 and 2018, using radiotracking and accelerometers.
 The model is run many times using a prior distribution for the number of spawners in the population. On each simulation, the actual sampling scheme is applied, summary statistics are computed and compared to summary statistics on actual data in order to infer the posterior distribution of the number of spawners.
 The ultimate aim is to wrap all this in a Shiny app which could be used by the practitioners (Migado, Migradour...).
+
+See how to write this in Netlogo and interface with R : https://www.jstatsoft.org/article/view/v058i02/v58i02.pdf
